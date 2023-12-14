@@ -1,0 +1,59 @@
+contact:
+  name: Ekaterina Zhukova
+  email: katushok-97@mail.ru
+  date_of_birth: 29/09/1997
+  job: Python Developer
+  summary: |
+        Hi, my name is Kate and I'm a Python dev since 2019.
+        Please hire me!
+  location:
+    address: Kedrovaya Street
+    city: Novosibirsk
+    country: Russia
+  phone: '+79059502392'
+experiences:
+- company: EvrazTehnica
+  position: Senior Python Developer
+  start_date: January 2019
+  summary: |
+        Developer for the idustrial company.
+  tags:
+  - python
+  - datascience
+  - git
+  - docker
+  - scrum
+
+profiles:
+- network: Telegram
+  url: @Katherina_Zhukova
+- network: Twitter
+  url: https://twitter.com/kate
+
+education:
+- degree: Master of Applied Mathematics and Computer Science
+  start_date: January 2015
+  end_date: January 2021
+  institution: NSTU
+  website: https://www.nstu.ru/?ref
+skills:
+- name: Python
+  level: 90
+- name: Datascience
+  level: 80
+- name: Devops
+  level: 80
+- name: Git
+  level: 50
+languages:
+- name: English
+  level: Native language
+
+projects:
+- name: EVRAZ
+  description: How to make a better quality
+  url: https://habr.com/ru/companies/evraz/articles/573340/
+hobbies:
+- name: Drawing
+- name: Sport
+  details: Stretching and Ballet

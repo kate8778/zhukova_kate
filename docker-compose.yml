@@ -1,0 +1,14 @@
+version: '3'
+services:
+  
+  nginx:
+    image: nginx 
+    volumes:
+      - C:/Users/Ekaterina/Desktop/MODULE_2/folder/resume.html:/usr/share/nginx/html/index.html
+    ports: 
+      - "8000:80"
+
+
+
+
+
