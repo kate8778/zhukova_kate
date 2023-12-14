@@ -1,0 +1,24 @@
+# My GithubAction
+
+name: MyGithubAction
+
+on: 
+  push:
+    branches: 
+      - main
+jobs:
+  my_testing:
+    runs-on: ubuntu-latest
+    #Шаги и команды
+    steps:
+    - name: Print Hello Message
+      run: echo "Hello wiorld from testing"
+
+  my_deploy:
+    runs-on: ubuntu-latest
+    #Шаги и команды
+    steps:
+    - name: Print Hello Message
+      run: echo "Hello wiorld from deploy"
+  
+    
