@@ -16,6 +16,7 @@ jobs:
 
   my_deploy:
     runs-on: ubuntu-latest
+    needs: [my_testing]
     #Шаги и команды
     steps:
     - name: Print Hello Message
