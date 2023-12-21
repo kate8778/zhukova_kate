@@ -1,4 +1,3 @@
-FROM python
-WORKDIR /app 
-COPY . .
-CMD ["python", "main.py"]
+FROM ubuntu:20.04
+RUN apt-get -y update
+RUN apt-get -y update install nginx
